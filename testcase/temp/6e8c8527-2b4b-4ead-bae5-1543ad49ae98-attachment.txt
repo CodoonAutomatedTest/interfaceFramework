@@ -1,0 +1,4 @@
+INFO     root:LogUtil.py:79 [INFO]--- setup class ---
+INFO     root:LogUtil.py:79 [INFO]--- setup ---
+INFO     root:LogUtil.py:79 [INFO]--- teardown ---
+INFO     root:LogUtil.py:79 [INFO]--- teardown_class ---

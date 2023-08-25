@@ -1,0 +1,5 @@
+INFO     root:LogUtil.py:79 [INFO]--- setup ---
+DEBUG    urllib3.connectionpool:connectionpool.py:231 Starting new HTTP connection (1): 120.26.10.118:1502
+DEBUG    urllib3.connectionpool:connectionpool.py:461 http://120.26.10.118:1502 "GET /backend/advert/admin/gen/get_third_ads?%7B%22display_type%22:%200,%20%22shelf_status%22:%20-1,%20%22third_ad_id_or_name%22:%201011%7D HTTP/1.1" 200 None
+INFO     root:LogUtil.py:79 [INFO]--- teardown ---
+INFO     root:LogUtil.py:79 [INFO]--- teardown_class ---

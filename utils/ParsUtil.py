@@ -6,8 +6,8 @@ import os
 import yaml
 
 
-def read_yaml(yaml_file):
-    with open(yaml_file, encoding='utf-8') as f:
+def read_yaml_data(yaml_file):
+    with open(str(get_project_path()) + '/data/' + yaml_file, encoding='utf-8') as f:
         value = yaml.load(f, Loader=yaml.FullLoader)
         return value
 

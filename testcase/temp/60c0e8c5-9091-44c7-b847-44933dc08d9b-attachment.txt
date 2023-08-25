@@ -1,0 +1,6 @@
+INFO     root:LogUtil.py:79 [INFO]--- setup class ---
+INFO     root:LogUtil.py:79 [INFO]--- setup ---
+DEBUG    urllib3.connectionpool:connectionpool.py:231 Starting new HTTP connection (1): 120.26.10.118:1502
+DEBUG    urllib3.connectionpool:connectionpool.py:461 http://120.26.10.118:1502 "GET /open_backend/advert/admin/get_ad_from_db HTTP/1.1" 404 18
+INFO     root:LogUtil.py:79 [INFO]--- teardown ---
+INFO     root:LogUtil.py:79 [INFO]--- teardown_class ---

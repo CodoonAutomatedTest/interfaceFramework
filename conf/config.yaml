@@ -1,5 +1,5 @@
 url:
-  base_url: http://127.0.0.1:5000
+  base_url: http://120.26.10.118
 #  base_url: https://api.codoon.com
 log:
   log_name: log_
