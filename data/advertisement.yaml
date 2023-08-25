@@ -1,0 +1,25 @@
+-
+  api_name: 后台创建8号位广告
+  api_request:
+    port: :1502
+    url: /backend/advert/admin/seg/8/create_ad_task
+    method: post
+    headers:
+      Content-type: application/x-www-form-urlencoded
+    parmas:
+      "ad_type": 6
+      "ad_position": 8
+      "imags": "https://s1.codooncdn.com/console/internal-user/2023-08-25T14.52.24/411280xtiJgmscR3Z5yB3pAxx.jpeg!640m0,,dpi640||https://s1.codooncdn.com/console/internal-user/2023-08-25T14.52.24/411280xtiJgmscR3Z5yB3pAxx.jpeg!750m0,,dpi750||https://s1.codooncdn.com/console/internal-user/2023-08-25T14.52.24/411280xtiJgmscR3Z5yB3pAxx.jpeg!1080m0,,dpi1080"
+      "purposeType": "a"
+      "purpose": "a1"
+      "platform": 0
+      "member_type": 0
+      "desc": "我完全"
+      "ad_source": "同城活动"
+      "index": 1
+      "begin_time_type": 0
+      "begin_time": "2023-08-25 00:00:00"
+      "end_time": "2023-09-30 23:59:59"
+      "banner_index": 1
+  api_validate:
+    - eq: {code: 200}
